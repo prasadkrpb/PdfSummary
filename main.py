@@ -15,7 +15,7 @@ load_dotenv()
 api_key = os.getenv("GROQ_API_KEY")
 #llama_model = ChatGroq(groq_api_key=api_key,model="llama3-8b-8192")
 #llama_model = ChatGroq(groq_api_key=api_key,model="llama3-70b-8192")
-llama_model = ChatGroq(groq_api_key=api_key,model="gemma2-9b-it")
+llama_model = ChatGroq(groq_api_key=api_key,model="llama-3.3-70b-versatile")
 
 
 
